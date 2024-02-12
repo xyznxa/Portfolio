@@ -1,0 +1,138 @@
+body{
+    background-image: url("https://wallpapers.com/images/featured/black-wuuaobghtdllhliu.jpg");
+}
+
+.content {
+    margin: 6vh 5vw;
+    border-radius: 20px;
+    background-color: rgba(26, 24, 24, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: rgba(22, 21, 21, 0.6);
+    padding:  20px 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+   
+}
+
+.main{
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 4vw;
+    padding-bottom: 3vh;
+    gap: 3vw;
+
+}
+.pic{
+    width: 350px;
+    height: 500px;
+    margin: 5px 15px;
+    box-shadow: 0px 9px 10px #3a3838;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+h1{
+    font-size: 54px;
+    color: white;
+}
+h2{
+    font-size: 40px;
+    color: white;
+}
+
+
+ul *{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+li{
+    list-style-type: none;
+}
+.text>p{
+font-size: 24px;
+color: white;
+text-align: justify;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    background-color: #252525;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+.facebook,.twitter,.github,.linkedin{
+    height: 32px;
+    width: 32px;
+    margin: 0rem 10px;
+}
+
+
+.copyright-section  *{
+ color: white;
+ text-decoration: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .main{
+        grid-template-columns: auto; /* Change to a single column for small screens */
+        grid-template-rows: auto auto;
+    }
+    .profilecontent{
+        text-align: center;
+    }
+
+
+    h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .footer{
+        gap: 0px;
+    }
+
+    nav ul{
+        width: 100%;
+       
+    }
+
+    .text>p{
+        padding: 30px;
+        }
+        
+        .text h1,h2{
+            padding: 0px 20px;
+        }
+  }
+  
